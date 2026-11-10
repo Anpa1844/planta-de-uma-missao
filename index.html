@@ -1,0 +1,35 @@
+<!doctype html><html lang=pt-BR><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name=robots content="index,follow"><meta name=description content="Planta de uma missão: linha do tempo 1927–2026 e viagem pelo rio com o barco Luzeiro I. XIX Assembleia Ordinária da ANPa 2026."><title>Linha do Tempo · À Luz da Palavra</title>
+<link rel=stylesheet href=estilo.css>
+<script type=importmap>{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script>
+</head><body>
+<canvas id=c></canvas>
+<section id=inicio>
+  <img src=logo.png alt="À Luz da Palavra">
+  <p class=kicker>LINHA DO TEMPO · 1927 – 2026</p>
+  <h1>Planta de uma missão</h1>
+  <p>Abra a revista sobre a mesa, com boa luz, e deite o celular.</p>
+  <button id=btAR>Ver sobre a revista</button>
+  <button id=bt3D class=sec>Viajar pelo rio, sem câmera</button>
+  <small>Som ligado deixa a história melhor. Usa a câmera só neste aparelho; nenhuma imagem é enviada.<br>Rastreamento: XR Engine da 8th Wall © 2026 Niantic Spatial, Inc., sob sua <a href=vendor/8thwall-LICENSE.txt>licença e isenção de garantias</a>.</small>
+</section>
+<div id=mira hidden><i></i><p>Aponte para as duas páginas abertas</p></div>
+<div id=msg hidden></div>
+<nav id=barra hidden>
+  <button id=btTour>▶ Ouvir a história</button>
+  <div id=pontos></div>
+  <button id=btSom aria-label="Som">♪</button>
+</nav>
+<article id=painel hidden>
+  <button id=fecha aria-label=Fechar>×</button>
+  <header><b id=pAno></b><span id=pN></span></header>
+  <h2 id=pTit></h2>
+  <p id=pEv></p>
+  <div id=pFotos></div>
+  <p id=pTxt></p>
+  <footer><button id=btAnt>‹</button><button id=btOuvir>▶ Ouvir</button><button id=btProx>›</button></footer>
+</article>
+<div id=zoom hidden><img id=zImg alt=""><button id=zFecha aria-label=Fechar>×</button></div>
+<script type=module src=app.js></script>
+</body></html>

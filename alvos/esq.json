@@ -1,0 +1,17 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 80,
+    "width": 1985,
+    "height": 2647,
+    "isRotated": false,
+    "originalWidth": 1985,
+    "originalHeight": 2808
+  },
+  "imagePath": "alvos/esq_lum.png",
+  "metadata": null,
+  "name": "pagina_esq",
+  "created": 1793825391342,
+  "updated": 1793825391342
+}
