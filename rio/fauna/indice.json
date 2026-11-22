@@ -1,0 +1,440 @@
+{
+ "versao": 2,
+ "origem": "../../modelo/fauna_v1_3",
+ "teto": [
+  3,
+  6,
+  10
+ ],
+ "especies": {
+  "caninde": {
+   "arquivos": {
+    "a": "arara_caninde.glb",
+    "b": "arara_caninde.glb",
+    "c": "arara_caninde.glb"
+   },
+   "tris": {
+    "a": 416,
+    "b": 416,
+    "c": 416
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousada"
+   ],
+   "clips": {
+    "voo": "voo",
+    "pousada": "pousada"
+   },
+   "defasa": 0.15
+  },
+  "arara": {
+   "arquivos": {
+    "a": "arara_vermelha.glb",
+    "b": "arara_vermelha.glb",
+    "c": "arara_vermelha.glb"
+   },
+   "tris": {
+    "a": 416,
+    "b": 416,
+    "c": 416
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousada"
+   ],
+   "clips": {
+    "voo": "voo",
+    "pousada": "pousada"
+   },
+   "defasa": 0.15
+  },
+  "ariranha": {
+   "arquivos": {
+    "a": "ariranha.glb",
+    "b": "ariranha.glb",
+    "c": "ariranha.glb"
+   },
+   "tris": {
+    "a": 266,
+    "b": 266,
+    "c": 266
+   },
+   "clipsNoArquivo": [
+    "nadar",
+    "espiar"
+   ],
+   "clips": {
+    "nada": "nadar",
+    "espia": "espiar"
+   }
+  },
+  "bigua": {
+   "arquivos": {
+    "a": "bigua.glb",
+    "b": "bigua.glb",
+    "c": "bigua.glb"
+   },
+   "tris": {
+    "a": 418,
+    "b": 418,
+    "c": 418
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousado",
+    "nadar",
+    "secar"
+   ],
+   "clips": {
+    "nada": "nadar",
+    "voo": "voo",
+    "secar": "secar",
+    "pousada": "pousado"
+   }
+  },
+  "borboleta": {
+   "arquivos": {
+    "a": "borboleta_azul.glb",
+    "b": "borboleta_azul.glb",
+    "c": "borboleta_azul.glb"
+   },
+   "tris": {
+    "a": 50,
+    "b": 50,
+    "c": 50
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousada"
+   ],
+   "escala": 1.4,
+   "clips": {
+    "voo": "voo",
+    "pousada": "pousada"
+   }
+  },
+  "boto": {
+   "arquivos": {
+    "a": "boto_rosa.glb",
+    "b": "boto_rosa.glb",
+    "c": "boto_rosa.glb"
+   },
+   "tris": {
+    "a": 385,
+    "b": 385,
+    "c": 385
+   },
+   "clipsNoArquivo": [
+    "nadar",
+    "respiro",
+    "salto"
+   ],
+   "clips": {
+    "salto": "salto",
+    "nada": "nadar",
+    "respiro": "respiro"
+   },
+   "yClip": {}
+  },
+  "capivara": {
+   "arquivos": {
+    "a": "capivara.glb",
+    "b": "capivara.glb",
+    "c": "capivara.glb"
+   },
+   "tris": {
+    "a": 374,
+    "b": 374,
+    "c": 374
+   },
+   "clipsNoArquivo": [
+    "parada",
+    "andar",
+    "nadar"
+   ],
+   "clips": {
+    "parada": "parada",
+    "anda": "andar",
+    "bebe": "parada",
+    "come": "parada",
+    "nada": "nadar"
+   }
+  },
+  "garca": {
+   "arquivos": {
+    "a": "garca_branca.glb",
+    "b": "garca_branca.glb",
+    "c": "garca_branca.glb"
+   },
+   "tris": {
+    "a": 426,
+    "b": 426,
+    "c": 426
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousada"
+   ],
+   "clips": {
+    "voo": "voo",
+    "decola": "voo",
+    "pousada": "pousada"
+   },
+   "yPousada": -0.5
+  },
+  "moura": {
+   "arquivos": {
+    "a": "garca_moura.glb",
+    "b": "garca_moura.glb",
+    "c": "garca_moura.glb"
+   },
+   "tris": {
+    "a": 422,
+    "b": 422,
+    "c": 422
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousada"
+   ],
+   "clips": {
+    "voo": "voo",
+    "decola": "voo",
+    "pousada": "pousada"
+   },
+   "yPousada": -0.5
+  },
+  "jacare": {
+   "arquivos": {
+    "a": "jacare_acu.glb",
+    "b": "jacare_acu.glb",
+    "c": "jacare_acu.glb"
+   },
+   "tris": {
+    "a": 707,
+    "b": 707,
+    "c": 707
+   },
+   "clipsNoArquivo": [
+    "nadar",
+    "parado",
+    "margem"
+   ],
+   "clips": {
+    "sol": "margem",
+    "boia": "parado",
+    "anda": "nadar",
+    "nada": "nadar"
+   }
+  },
+  "jacaretinga": {
+   "arquivos": {
+    "a": "jacaretinga.glb",
+    "b": "jacaretinga.glb",
+    "c": "jacaretinga.glb"
+   },
+   "tris": {
+    "a": 707,
+    "b": 707,
+    "c": 707
+   },
+   "clipsNoArquivo": [
+    "nadar",
+    "parado",
+    "margem"
+   ],
+   "clips": {
+    "boia": "parado",
+    "nada": "nadar",
+    "sol": "margem"
+   }
+  },
+  "martim": {
+   "arquivos": {
+    "a": "martim_pescador.glb",
+    "b": "martim_pescador.glb",
+    "c": "martim_pescador.glb"
+   },
+   "tris": {
+    "a": 413,
+    "b": 413,
+    "c": 413
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousado",
+    "mergulho"
+   ],
+   "clips": {
+    "voo": "voo",
+    "paira": "voo",
+    "mergulho": "mergulho",
+    "pousada": "pousado"
+   }
+  },
+  "pato": {
+   "arquivos": {
+    "a": "pato_do_mato.glb",
+    "b": "pato_do_mato.glb",
+    "c": "pato_do_mato.glb"
+   },
+   "tris": {
+    "a": 428,
+    "b": 428,
+    "c": 428
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousado",
+    "nadar"
+   ],
+   "clips": {
+    "nada": "nadar",
+    "voo": "voo",
+    "pousada": "pousado"
+   }
+  },
+  "cardume": {
+   "arquivos": {
+    "a": "peixe_cardume.glb",
+    "b": "peixe_cardume.glb",
+    "c": "peixe_cardume.glb"
+   },
+   "tris": {
+    "a": 110,
+    "b": 110,
+    "c": 110
+   },
+   "clipsNoArquivo": [
+    "nadar"
+   ],
+   "clips": {
+    "nada": "nadar"
+   }
+  },
+  "pirarucu": {
+   "arquivos": {
+    "a": "pirarucu.glb",
+    "b": "pirarucu.glb",
+    "c": "pirarucu.glb"
+   },
+   "tris": {
+    "a": 198,
+    "b": 198,
+    "c": 198
+   },
+   "clipsNoArquivo": [
+    "nadar"
+   ],
+   "clips": {
+    "nada": "nadar"
+   },
+   "escala": 1.6
+  },
+  "tartaruga": {
+   "arquivos": {
+    "a": "tracaja.glb",
+    "b": "tracaja.glb",
+    "c": "tracaja.glb"
+   },
+   "tris": {
+    "a": 275,
+    "b": 275,
+    "c": 275
+   },
+   "clipsNoArquivo": [
+    "nadar",
+    "sol"
+   ],
+   "clips": {
+    "parada": "sol",
+    "nada": "nadar"
+   }
+  },
+  "tucano": {
+   "arquivos": {
+    "a": "tucano.glb",
+    "b": "tucano.glb",
+    "c": "tucano.glb"
+   },
+   "tris": {
+    "a": 444,
+    "b": 444,
+    "c": 444
+   },
+   "clipsNoArquivo": [
+    "voo",
+    "pousado"
+   ],
+   "clips": {
+    "pousada": "pousado",
+    "voo": "voo"
+   },
+   "yPousada": -0.2
+  },
+  "peixe": {
+   "arquivos": {
+    "a": "tucunare.glb",
+    "b": "tucunare.glb",
+    "c": "tucunare.glb"
+   },
+   "tris": {
+    "a": 182,
+    "b": 182,
+    "c": 182
+   },
+   "clipsNoArquivo": [
+    "nadar"
+   ],
+   "clips": {
+    "salto": "nadar",
+    "nada": "nadar"
+   },
+   "escala": 1.5
+  },
+  "tucuxi": {
+   "arquivos": {
+    "a": "tucuxi.glb",
+    "b": "tucuxi.glb",
+    "c": "tucuxi.glb"
+   },
+   "tris": {
+    "a": 321,
+    "b": 321,
+    "c": 321
+   },
+   "clipsNoArquivo": [
+    "nadar",
+    "respiro",
+    "salto"
+   ],
+   "clips": {
+    "salto": "salto",
+    "nada": "nadar",
+    "respiro": "respiro"
+   }
+  },
+  "vitoria": {
+   "arquivos": {
+    "a": "vitoria_regia.glb",
+    "b": "vitoria_regia.glb",
+    "c": "vitoria_regia.glb"
+   },
+   "tris": {
+    "a": 284,
+    "b": 284,
+    "c": 284
+   },
+   "clipsNoArquivo": [
+    "flutuar",
+    "flutuar_sem_flor"
+   ],
+   "clips": {
+    "flutua": "flutuar",
+    "semflor": "flutuar_sem_flor"
+   }
+  }
+ },
+ "semCena": []
+}

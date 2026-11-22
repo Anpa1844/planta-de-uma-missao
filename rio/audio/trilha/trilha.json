@@ -1,0 +1,66 @@
+{
+  "musica": "Yuriy Leontiev - Rebirth (trilha oficial do evento)",
+  "fonte": "_MATERIAIS/VINHETA/TRILHA OFICIAL/Copied_Trilha Curta/Yuriy Leontiev - Rebirth.wav (312,69 s, 44,1 kHz, 24 bits)",
+  "bpm": 120.02,
+  "compasso_s": 2.0,
+  "primeiro_tempo_forte_s": 0.55,
+  "tonalidade": "ré menor (estimada por croma; pedal de ré nos primeiros 64 s; final em ré)",
+  "viagem": {
+    "arquivo": "trilha_viagem.mp3",
+    "arquivo_ogg": "trilha_viagem.ogg (Opus em contêiner Ogg)",
+    "dur": 89.0,
+    "lufs": -20.5,
+    "pico_dbtp": -2.2,
+    "lufs_ogg": -20.0,
+    "pico_dbtp_ogg": -1.6,
+    "laco_ini": 0.5,
+    "laco_fim": 88.5,
+    "laco_dur": 88.0,
+    "bpm": 120.02,
+    "compassos_no_laco": 44,
+    "uso": "AudioBufferSource com loop=true, loopStart=0.5, loopEnd=88.5; iniciar com start(quando, 0.5). O arquivo traz 0,5 s de rolagem antes e depois do laço (cópias do fim e do começo), para o laço não depender do preenchimento do codificador.",
+    "trechos": [
+      {"no_laco": [0.0, 64.0], "origem": [0.55, 64.55], "ganho_db": "0 até 30 s; desce a -3 dB entre 30 e 38 s", "nota": "introdução calma (0-32) e primeira construção com pulsos (32-64)"},
+      {"no_laco": [60.0, 92.0], "origem": [164.55, 196.55], "ganho_db": 6, "nota": "trecho rarefeito do meio da música; os últimos 4 s (88-92) dão a volta e caem sobre 0-4 do laço"}
+    ],
+    "emendas": [
+      {"no_laco": [60.0, 64.0], "tipo": "crossfade de 4 s (2 compassos), potência constante", "de_origem": 60.55, "para_origem": 164.55},
+      {"no_laco": [88.0, 92.0], "volta_para": [0.0, 4.0], "tipo": "crossfade de 4 s embutido na volta do laço", "de_origem": 192.55, "para_origem": 0.55}
+    ]
+  },
+  "final": {
+    "arquivo": "trilha_final.mp3",
+    "arquivo_ogg": "trilha_final.ogg (Opus em contêiner Ogg)",
+    "dur": 113.5,
+    "lufs": -15.8,
+    "pico_dbtp": -2.5,
+    "lufs_ogg": -15.3,
+    "pico_dbtp_ogg": -1.7,
+    "origem": [196.05, 309.55],
+    "ganho_db": -1.5,
+    "emendas": [],
+    "construcao_ini": 0.0,
+    "marcadores": {
+      "toque_grave_inicial": 0.5,
+      "brilho_rarefeito": [4.5, 28.5],
+      "subida": [28.5, 32.5],
+      "tema_entra": 32.5,
+      "auge": 64.5,
+      "auge_a_pleno": 64.7,
+      "fim_do_trecho_forte": 92.5,
+      "ultimo_acorde": 108.5,
+      "fim_musical": 112.5
+    },
+    "auge": 64.5,
+    "fim_musical": 112.5,
+    "auge_ate_fim": 48.0,
+    "lufs_por_trecho": {"0-32.5": -26.1, "32.5-64.5": -15.7, "64.5-92.5": -13.5, "92.5-113.5": -21.8},
+    "entradas_possiveis": [
+      {"offset": 0.0, "antes_do_auge": 64.5, "nota": "começa com um toque grave suave (-19 dBFS antes do ganho); usar fade-in de 2-4 s se quiser escondê-lo"},
+      {"offset": 4.5, "antes_do_auge": 60.0, "nota": "depois do toque, só o brilho rarefeito"},
+      {"offset": 28.5, "antes_do_auge": 36.0, "nota": "na subida que leva ao tema"},
+      {"offset": 32.5, "antes_do_auge": 32.0, "nota": "entrada do tema (com fade-in de 1-2 s)"}
+    ],
+    "uso": "disparar em tFimDaFala + 1 - (auge - offset); a partir do auge são 48 s de música até o fim_musical; mostrar a tela final em fim_musical."
+  }
+}

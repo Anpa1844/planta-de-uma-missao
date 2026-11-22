@@ -1,0 +1,140 @@
+{
+ "versao": "V6 · 21/11/2026",
+ "personagem": "Seu Leo (personagem inspirado em Leo Halliwell; não é gravação histórica)",
+ "voz": "Seu Leo · Magnific 214484",
+ "como_gravar": "Áudio gerado em 21/11/2026: audio/narr_ab1.mp3 … narr_ab4.mp3, com audio/narr_ab<n>.json (tempos reais das frases). As marcas 't' abaixo são cópia desses tempos reais. Se regravar: troque o mp3 e o json e rode /usr/bin/python3 atualiza_indice.py nesta pasta; a câmera se prende sozinha às frases (ver 'ganchos').",
+ "acende": {
+  "quando": "fim de ab1",
+  "detalhe": "A lanterna acende quando a fala ab1 termina (som de fósforo; a luz cresce de 0,25 s a 1,7 s depois). Enquanto ab1 toca, a tela fica escura. Se o áudio de ab1 tiver a frase 'Vou acender a lanterna.' no fim, o sincronismo é automático, qualquer que seja a duração."
+ },
+ "falas": [
+  {
+   "id": "ab1",
+   "etapa": "escuro",
+   "palco": "Tela escura, noite no rio (grilos, sapos, água no casco). Só a legenda.",
+   "fala": "Ainda é noite no rio. [pausa] Espere um instante... [pausa] Vou acender a lanterna.",
+   "legenda": [
+    {
+     "t": 0.0,
+     "texto": "Ainda é noite no rio."
+    },
+    {
+     "t": 2.4,
+     "texto": "Espere um instante..."
+    },
+    {
+     "t": 3.96,
+     "texto": "Vou acender a lanterna."
+    }
+   ],
+   "evento_no_fim": "ACENDE A LANTERNA",
+   "duracao_s": 5.44
+  },
+  {
+   "id": "ab2",
+   "etapa": "mesa",
+   "palco": "A lanterna acesa revela a mesa do camarote. Câmera: lanterna → mapa (em 'Este é o nosso mapa') → Bíblia aberta (em 'E esta é a Bíblia').",
+   "fala": "Pronto. Assim está melhor. Chegue mais perto. [pausa] Eu sou o Leo. Leo Halliwell. Vivi muitos anos nestes rios, com a minha esposa, Jessie. [pausa] Este é o nosso mapa. Cada marca nele é um pedaço da nossa história. [pausa] E esta é a Bíblia, sempre aberta sobre a mesa. Foi por causa dela que viemos.",
+   "legenda": [
+    {
+     "t": 0.0,
+     "texto": "Pronto. Assim está melhor."
+    },
+    {
+     "t": 2.34,
+     "texto": "Chegue mais perto."
+    },
+    {
+     "t": 4.13,
+     "texto": "Eu sou o Leo. Leo Halliwell."
+    },
+    {
+     "t": 6.56,
+     "texto": "Vivi muitos anos nestes rios, com a minha esposa, Jessie."
+    },
+    {
+     "t": 10.49,
+     "texto": "Este é o nosso mapa."
+    },
+    {
+     "t": 12.04,
+     "texto": "Cada marca nele é um pedaço da nossa história."
+    },
+    {
+     "t": 15.06,
+     "texto": "E esta é a Bíblia, sempre aberta sobre a mesa."
+    },
+    {
+     "t": 18.32,
+     "texto": "Foi por causa dela que viemos."
+    }
+   ],
+   "duracao_s": 20.16
+  },
+  {
+   "id": "ab3",
+   "etapa": "voo",
+   "palco": "A câmera sobe da mesa, atravessa a cabine, sai pelo vão central da frente (em 'lá para fora'), passa pelo convés de proa e dá a volta pelo costado (em 'Esta é a Luzeiro').",
+   "fala": "Venha comigo lá para fora. Cuidado com o degrau. [pausa] O rio ainda dorme. [pausa] Esta é a Luzeiro. Foi a nossa casa sobre as águas, por muitos anos.",
+   "legenda": [
+    {
+     "t": 0.0,
+     "texto": "Venha comigo lá para fora."
+    },
+    {
+     "t": 2.01,
+     "texto": "Cuidado com o degrau."
+    },
+    {
+     "t": 3.89,
+     "texto": "O rio ainda dorme."
+    },
+    {
+     "t": 6.13,
+     "texto": "Esta é a Luzeiro."
+    },
+    {
+     "t": 7.67,
+     "texto": "Foi a nossa casa sobre as águas, por muitos anos."
+    }
+   ],
+   "duracao_s": 10.88
+  },
+  {
+   "id": "ab4",
+   "etapa": "voo (fim)",
+   "palco": "A câmera sobe e vai para trás da popa; o céu passa da noite para a alvorada; o motor pega e o barco parte. Título na tela.",
+   "fala": "Veja, já está clareando. [pausa] São quase cem anos de história, rio abaixo. [pausa] Vamos descer o rio.",
+   "legenda": [
+    {
+     "t": 0.0,
+     "texto": "Veja, já está clareando."
+    },
+    {
+     "t": 2.85,
+     "texto": "São quase cem anos de história, rio abaixo."
+    },
+    {
+     "t": 6.39,
+     "texto": "Vamos descer o rio."
+    }
+   ],
+   "duracao_s": 7.52
+  }
+ ],
+ "ganchos": {
+  "explicacao": "Em abertura6.js (Palco.prende), três chaves da câmera são presas ao início de três frases, lido de audio/narr_ab<n>.json: a câmera chega pouco antes de a frase começar.",
+  "mapa": {
+   "fala": "ab2",
+   "frase": "nosso mapa"
+  },
+  "biblia": {
+   "fala": "ab2",
+   "frase": "Bíblia"
+  },
+  "nome_no_costado": {
+   "fala": "ab3",
+   "frase": "Luzeiro"
+  }
+ }
+}

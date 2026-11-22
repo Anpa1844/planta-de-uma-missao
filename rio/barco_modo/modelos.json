@@ -1,0 +1,13 @@
+{
+ "versoes": {
+  "47": {
+   "lods": [
+    "a",
+    "b",
+    "c"
+   ],
+   "esqueleto": true
+  }
+ },
+ "videos": false
+}

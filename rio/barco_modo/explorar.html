@@ -1,0 +1,25 @@
+<!doctype html><html lang=pt-BR><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name=robots content=noindex><meta name=theme-color content="#0e0c09"><title>Explorar a Luzeiro I</title>
+<link rel=stylesheet href=explorar.css>
+<script type=importmap>{"imports":{"three":"../vendor/three/three.module.js","three/addons/":"../vendor/three/addons/"}}</script>
+</head><body>
+<canvas id=c></canvas>
+<div id=eCarrega><svg class=icoBarco viewBox="0 0 24 24" aria-hidden=true><path d="M1.8 15.2h20.4l-2.4 4.3H4.6zM5.6 15.2v-4.4h9.6v4.4M8 12.8h1.6M11.4 12.8h1.6M17.8 15.2V5M17.8 5.6L7.2 10.8M10.4 10.8V8.6h4.2v2.2"/><path class=agua d="M2.4 22c1.2-.9 2.4-.9 3.6 0s2.4.9 3.6 0 2.4-.9 3.6 0 2.4.9 3.6 0 2.4-.9 3.6 0"/></svg><h1>Explorar a Luzeiro I</h1><p id=eCarregaT>Carregando o barco…</p><div id=eBarra><i></i></div><button id=eEntra hidden>Começar</button></div>
+<a id=eVolta href="../index.html" title="Voltar à viagem pelo rio">← Voltar à viagem</a>
+<div id=eTitulo><small>EXPLORAR A LUZEIRO I</small><b id=eCap></b></div>
+<div id=eAviso hidden>ANIMAÇÃO MERAMENTE ILUSTRATIVA · a estrutura e a ordem de montagem são uma reconstrução provável, não um desenho de época.</div>
+<div id=eLeg></div>
+<div id=eRotulos></div>
+<article id=eCard hidden><button class=fecha aria-label=Fechar>×</button><span class=tag></span><h3></h3><p></p><small class=fonte></small></article>
+<div id=eVideo hidden><video muted loop playsinline></video><small>Representação ilustrativa de possíveis atividades a bordo.</small></div>
+<div id=eVideoTela hidden><video controls playsinline></video><small>Representação ilustrativa de possíveis atividades a bordo.</small><button aria-label=Fechar>×</button></div>
+<nav id=eCaps>
+ <button data-c=0>① O barco</button><button data-c=1>② Como foi construída</button><button data-c=2>③ Raio-X</button><button data-c=3>④ Por dentro</button><button data-c=4>⑤ Livre</button>
+ <button id=eNum>⚖ Números</button><span class=sep></span><span id=eModos role=group aria-label="Modo de vista"><button data-m=normal>Normal</button><button data-m=raiox>Raio-X</button><button data-m=projeto>Projeto naval</button></span><span class=sep></span><button id=ePausa aria-label=Pausar>⏸</button><button id=eMudo aria-label=Som>🔊</button>
+</nav>
+<div id=eBarraAnim hidden><i></i></div>
+<div id=eEscala hidden><i></i><span>0</span><b>1 m</b></div>
+<div id=eCarimbo hidden><b>LUZEIRO I — PLANO DE CONSTRUÇÃO</b><span>(reconstituição ilustrativa)</span><span class=vista>Vista: PERSPECTIVA</span><span>Medidas tiradas do modelo 3D; as fontes divergem (9,1 a 11 m de comprimento).</span><span class=ress>Não é um plano histórico: ninguém guardou o desenho do estaleiro.</span><span>Explorar a Luzeiro I · XIX Assembleia ANPa · 2026</span></div>
+<script type=module src=explorar.js></script>
+</body></html>
